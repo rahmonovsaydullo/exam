@@ -1,0 +1,41 @@
+.nameanddesc {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.git-sec {
+  display: flex;
+  gap: 20px;
+}
+
+.tags {
+  display: flex;
+  gap: 10px;
+}
+
+
+/* .header-box{
+    display: flex;
+} */
+
+.ibrary-container{
+    display: flex;
+    /* flex-direction: column; */
+    /* padding: 30px; */
+}
+
+.selections{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.link-cards{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(242, 149, 0);
+    padding:5px  20px;
+}

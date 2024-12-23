@@ -3,15 +3,26 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #4f4f4f;
 }
 
 .search-container {
   display: flex;
   align-items: center;
-  border: 1px solid #ccc;
+  border: 1px solid #4f4f4f;
   border-radius: 4px;
   overflow: hidden;
-  width: 400px;
+  width: 80%;
+}
+
+
+
+.number{
+    color: rgb(255, 140, 0);
+}
+
+.numbertext{
+    color: #7b7b7b;
 }
 
 .search-container input {
@@ -24,7 +35,6 @@
 .search-container button {
   border: none;
   background-color: transparent;
-  padding: 10px;
   cursor: pointer;
 }
 
@@ -35,18 +45,27 @@
 
 .container-box {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 30px;
   padding: 50px;
+  background-color: rgb(144, 144, 144);
 }
 
 .lib-box {
   display: flex;
   flex-direction: column;
-  width: 400px;
+  width: 500px;
   height: 170px;
-  background-color: dimgrey;
+  background-color: rgb(74, 74, 74);
   padding: 20px;
+  margin-right: 50px;
+  color: white;
+}
+
+.libName{
+    color: rgb(255, 140, 0) !important;
+    font-size: 23px;
 }
 
 .header {
