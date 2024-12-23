@@ -1,0 +1,62 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  width: 400px;
+}
+
+.search-container input {
+  border: none;
+  padding: 10px;
+  flex-grow: 1;
+  font-size: 16px;
+}
+
+.search-container button {
+  border: none;
+  background-color: transparent;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.search-container button img {
+  width: 16px;
+  height: 16px;
+}
+
+.container-box {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 50px;
+}
+
+.lib-box {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 170px;
+  background-color: dimgrey;
+  padding: 20px;
+}
+
+.header {
+  font-size: 19px;
+}
+
+.body {
+  font-size: 16px;
+}
+
+.footer {
+  font-size: 14px;
+}
